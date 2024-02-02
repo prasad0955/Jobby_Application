@@ -1,0 +1,75 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272727;
+  width: 100%;
+  color: #ffffff;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+}
+.website-logo-header {
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+}
+.ul-container {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+}
+.home-logo-mobile {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.jobs-logo-mobile {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.logout-logo-mobile {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.ul-container-desktop {
+  list-style: none;
+  padding: 0px;
+  display: none;
+}
+.desktop-head-li {
+  margin-left: 15px;
+  list-style: none;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+.logout-desktop-botton {
+  background-color: #4f46e5;
+  color: #ffffff;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .ul-container {
+    display: none;
+  }
+  .ul-container-desktop {
+    display: flex;
+  }
+  .logout-desktop-botton {
+    display: flex;
+  }
+}
